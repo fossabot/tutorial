@@ -336,7 +336,8 @@ You can now connect to Prometheus at the following address:
 * [http://localhost:9090](http://localhost:9090)
 
 This should show the following screen:
-![prometheus-dashboard](./resources/prometheus-dashboard.png)
+![prometheus-dashboard](./resources/prometheus-dashboard.png)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmartencassel%2Ftutorial.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmartencassel%2Ftutorial?ref=badge_shield)
+
 Prometheus will be automatically collecting data from your Express.js application, allowing you to create graphs of your data.
 
 To build your first graph, type `os_cpu_used_ratio` into the **Expression** box and click on the **Graph** tab:
@@ -430,3 +431,6 @@ Here are some ideas you could explore to further your learning.
 ## Congratulations! 🎉
 
 You now have an Express.js application deployed at scaling using Docker and Kubernetes, with automatic restart and full metrics based monitoring enabled!
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmartencassel%2Ftutorial.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmartencassel%2Ftutorial?ref=badge_large)
